@@ -167,6 +167,11 @@ form{
     opacity: 100;
 }
 
+#location:focus::placeholder{
+    color: black;
+    opacity: 30%;
+}
+
 #location:focus{
     outline: none;
 }
@@ -203,7 +208,6 @@ form{
     flex-direction: row;
     align-items: center;
     gap: 15px;
-    /* background-color: khaki; */
 }
 
 .filter-title, .filter-name{
@@ -213,7 +217,6 @@ form{
 
 .filter-title{
     font-size: 18px;
-    /* background-color: lavender; */
 }
 
 .filter-name{
@@ -233,17 +236,33 @@ form{
     background-color: var(--filter-bg-color);
 }
 
-/* .filter-name{
-    background-color: bisque;
-} */
-
 .money-icon{
     color: var(--main-color);
     font-size: 18px;
-    /* background-color: aquamarine; */
 }
 
+/* info text */
 
+.info-container{
+    height: 24px;
+    margin: 35px 0;
+    /* flexbox */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid var(--footer-bg-color);
+    text-align: center;
+}
+
+.fa-info{
+    font-size: 12px;
+}
 
  /****************************************************************************************/
 /****************************************************************************************/
