@@ -134,10 +134,19 @@ h1{
 /*********** FORM *************/
 
 form{
-    background-color: bisque;
+    margin-bottom: 35px;
 }
 
 /* GPS icon */
+
+.gps-icon{
+    display: inline;
+    padding: 16px 16px;
+    height: 49px; 
+    border: 1px solid var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+    background-color: var(--main-bg-color)
+}
 
 /* input */
 
@@ -164,7 +173,7 @@ form{
 /* search button */
 
 .search-button{
-    margin-left: 0px;
+    margin-left: -4px;
     padding: 15px 16px;
     background-color: var(--main-color);
     /* texte */
