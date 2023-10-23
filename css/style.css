@@ -141,7 +141,7 @@ form{
 
 .gps-icon{
     display: inline;
-    padding: 16px 16px;
+    padding: 16px 16px 16px 19px;
     height: 49px; 
     border: 1px solid var(--main-bg-color);
     border-radius: 15px 0 0 15px;
@@ -151,8 +151,9 @@ form{
 /* input */
 
 #location{
+    width: 147px;
     margin-right: 0px;
-    padding: 15px 24px;
+    padding: 13px 24px;
     /* texte */
     text-align: center;
     font-size: 18px;
@@ -186,9 +187,62 @@ form{
     border: 1px solid var(--Blue, #0065FC); 
 }
 
+.search-button:hover{
+    background-color: black;
+}
+
 .fa-magnifying-glass{
     display: none;
 }
+
+/*********** FILTRES *************/
+
+.filter-container{
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    /* background-color: khaki; */
+}
+
+.filter-title, .filter-name{
+    margin: 0;
+    font-weight: 700; 
+}
+
+.filter-title{
+    font-size: 18px;
+    /* background-color: lavender; */
+}
+
+.filter-name{
+    font-size: 17px;
+}
+
+.filter-item{
+    padding: 15px 19px;
+    border: 2px solid var(--footer-bg-color);
+    border-radius: 25px;
+    /* flexbox */
+    display: flex;
+    gap: 10px;
+}
+
+.filter-item:hover{
+    background-color: var(--filter-bg-color);
+}
+
+/* .filter-name{
+    background-color: bisque;
+} */
+
+.money-icon{
+    color: var(--main-color);
+    font-size: 18px;
+    /* background-color: aquamarine; */
+}
+
 
 
  /****************************************************************************************/
