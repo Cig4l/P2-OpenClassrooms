@@ -305,7 +305,7 @@ form{
 
 .card-container{
     margin-top: 4px;
-    padding: 0 12px 12px 12px;
+    padding: 0 12px 8px 12px;
     /* flexbox */
     display: flex;
     flex-direction: column;
