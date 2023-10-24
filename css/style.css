@@ -73,9 +73,6 @@ header{
 
 /* LOGO */
 
-/* .header__logo{
-} */
-
 .img__logo{
     width: 3.75rem;
     padding: 30px 50px 30px 0;
@@ -423,12 +420,37 @@ form{
 /******************************* FOOTER *******************************/
 
 footer{
-    display: flex;
-    margin: 35px auto 0 auto;
     padding: 20px;
-    width: 65%;
-    /* height: 10%; */
-    background-color: var(--footer-bg-color);
+    margin: 35px 0 -8px 0;
+    background-color: var(--main-bg-color);
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700; 
+}
+
+.footer-ul{
+    list-style-type: none;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-ul li:hover{
+    color: var(--main-color)
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
