@@ -324,6 +324,18 @@ form{
     margin: 0;
 }
 
+.hebergement-button{
+    background-color: transparent;
+    border: 0px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 700; 
+}
+
+.hebergement-button:hover{
+    color: var(--main-color)
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
