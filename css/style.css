@@ -420,6 +420,17 @@ form{
     font-weight: 700; 
 }
 
+/******************************* FOOTER *******************************/
+
+footer{
+    display: flex;
+    margin: 35px auto 0 auto;
+    padding: 20px;
+    width: 65%;
+    /* height: 10%; */
+    background-color: var(--footer-bg-color);
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
