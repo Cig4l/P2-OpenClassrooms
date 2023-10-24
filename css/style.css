@@ -288,15 +288,28 @@ form{
     margin-top: 35px;
     /* flexbox */
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
 }
 
 .hotel-article{
-    background-color: bisque;
-    width: 33.33%;
+    background-color: white;
+    width: 29%;
+    /* bords */
     border: 5px solid white;
-    border-radius: 20px 20px 0px 0px; 
+    border-radius: 20px; 
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10); 
+    transition: 0.3s;
+}
+
+.card-container{
+    margin-top: 4px;
+    padding: 0 12px 12px 12px;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .hotel-picture{
@@ -304,6 +317,10 @@ form{
     width: 100%;
     border-radius: 20px 20px 0px 0px; 
     object-fit: cover;
+}
+
+.card-title, .card-subtitle, .card-rating{
+    margin: 0;
 }
 
 /****** Populaires ***********/
