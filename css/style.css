@@ -74,7 +74,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    /* background-color: aquamarine; */
+    position: static;
 }
 
 /* LOGO */
@@ -100,7 +100,7 @@ header{
     list-style-type: none;
 }
 
-.menu__element{
+.menu-element{
     color: #000;
     text-align: center;
     font-size: 1rem;
@@ -110,7 +110,7 @@ header{
 
 /* PSEUDO CLASSES */
 
-.main-menu__ul li a:hover{
+.main-menu-ul li a:hover{
     color: var(--main-color);
     /* text decoration */
     text-decoration: underline;
