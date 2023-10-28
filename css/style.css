@@ -599,20 +599,58 @@ footer{
         font-size: 14px;
     }
 
-    /************* SECTION POPULAIRES *************/
+    /************* SECTIONS POPULAIRES + HEBERGEMENT *************/
 
-    /* HEBERGEMENT + POPULAIRES DIV */
+    /*** HEBERGEMENT + POPULAIRES DIV ***/
 
     .hebergements-and-populaires{
         border-radius: 0;
         /* flexbox */
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
+    /*** SECTION POPULAIRES ***/
+
     #populaires-section{
-        margin-top: 0;
-        padding: 0;
-        border-radius: 0px;
+        width: 100vw;
+        margin: 0;
+        padding: 30px;
+        border-radius: 0;
     }
+
+    .populaires-cards{
+        flex-direction: column;
+    }
+
+    .populaires-cards a{
+        width: 100%;
+    }
+
+    .card{
+        flex-basis: 100%;
+    }
+
+    .card-title {
+        font-size: 16px; /* ne marche pas sur populaires */
+    }
+
+    .card-subtitle{
+        font-size: 14px; /* ne marche pas sur populaires */
+    }
+
+    /*** SECTION HEBERGEMENT ***/
+
+    #hebergements-section{
+        background-color: white;
+        padding: 20px 0 0 0;
+        margin: 15px 0;
+    }
+
+    .hebergements-container{
+        margin-top: 15px;
+        gap: 15px;
+    }
+
 }
