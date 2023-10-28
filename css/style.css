@@ -258,7 +258,7 @@ h1{
 }
 
 .info-icon{
-    width: 24px;
+    width: 25px;
     height: 24px;
     border-radius: 50%;
     border: 1px solid var(--footer-bg-color);
@@ -337,9 +337,9 @@ h1{
     font-weight: 700; 
 }
 
-.hebergement-button:hover{
+/* .hebergement-button:hover{
     color: var(--main-color)
-}
+} */
 
 /****** Populaires ***********/
 .populaires {
@@ -600,5 +600,20 @@ footer{
         font-size: 14px;
     }
 
-    /*** information ***/
+    /************* SECTION POPULAIRES *************/
+
+    /* HEBERGEMENT + POPULAIRES DIV */
+
+    .hebergements-and-populaires{
+        border-radius: 0;
+        /* flexbox */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .populaires{
+        margin-top: 0;
+        padding: 0;
+        border-radius: 0px;
+    }
 }
