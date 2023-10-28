@@ -302,7 +302,6 @@ h1{
     background-color: white;
     width: 29%;
     /* bords */
-    /* border: 5px solid white; */
     border-radius: 20px; 
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10); 
     transition: 0.3s;
@@ -337,9 +336,9 @@ h1{
     font-weight: 700; 
 }
 
-/* .hebergement-button:hover{
+.hebergement-button:hover{
     color: var(--main-color)
-} */
+}
 
 /****** Populaires ***********/
 .populaires {
@@ -611,7 +610,7 @@ footer{
         flex-direction: column-reverse;
     }
 
-    .populaires{
+    #populaires-section{
         margin-top: 0;
         padding: 0;
         border-radius: 0px;
