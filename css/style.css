@@ -620,24 +620,24 @@ footer{
         border-radius: 0;
     }
 
+    .populaires-cards .card-title, .card-title{
+        font-size: 16px;
+    }
+
+    .populaires-cards .card-subtitle, .card-subtitle{
+        font-size: 14px;
+    }
+
     .populaires-cards{
         flex-direction: column;
     }
-
+    
     .populaires-cards a{
         width: 100%;
     }
 
     .card{
         flex-basis: 100%;
-    }
-
-    .card-title {
-        font-size: 16px; /* ne marche pas sur populaires */
-    }
-
-    .card-subtitle{
-        font-size: 14px; /* ne marche pas sur populaires */
     }
 
     /*** SECTION HEBERGEMENT ***/
@@ -651,6 +651,26 @@ footer{
     .hebergements-container{
         margin-top: 15px;
         gap: 15px;
+    }
+
+    /************* SECTION ACTIVITES *************/
+
+    .activites-section{
+        padding: 0;
+    }
+
+    .activites-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .activites-item{
+        width:100%;
+    }
+
+    .activites-item a img{
+        height: 17vh;
     }
 
 }
