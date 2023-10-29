@@ -502,8 +502,13 @@ footer{
 
 @media (max-width: 767.98px) {
     /************ GENERAL *************/
+
+    body{
+        margin: 0;
+    }
+
     .main-container{
-        padding: 0 20px;
+        padding: 0 30px;
     }
 
     /************* HEADER *************/
@@ -644,8 +649,8 @@ footer{
 
     #hebergements-section{
         background-color: white;
-        padding: 20px 0 0 0;
-        margin: 15px 0;
+        padding: 20px 0;
+        margin: 15px 0 0 0;
     }
 
     .hebergements-container{
@@ -656,7 +661,7 @@ footer{
     /************* SECTION ACTIVITES *************/
 
     .activites-section{
-        padding: 0;
+        padding: 30px 0;
     }
 
     .activites-container{
@@ -673,4 +678,26 @@ footer{
         height: 17vh;
     }
 
+    /************* FOOTER *************/
+
+    footer{
+        /* width: 100%; */
+        position: relative;
+        left: -30px;
+        width: 100vw;
+        margin: 35px 0 0 0;
+        padding: 30px;
+    }
+
+    .footer-container{
+        /* flexbox */
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    #ghost-footer{
+        display: none;
+    }
 }
