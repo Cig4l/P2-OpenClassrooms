@@ -48,8 +48,7 @@ a {
 }
 
 .card:hover{
-    /* background-color: aquamarine; */
-    border: 1px solid var(--main-color);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -301,10 +300,6 @@ h1{
 .hotel-article{
     background-color: white;
     width: 29%;
-    /* bords */
-    border-radius: 20px; 
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10); 
-    transition: 0.3s;
 }
 
 .card-container{
