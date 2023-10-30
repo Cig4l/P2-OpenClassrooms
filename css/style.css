@@ -231,6 +231,7 @@ h1{
     padding: 15px 19px;
     border: 2px solid var(--footer-bg-color);
     border-radius: 25px;
+    background-color: white;
     /* flexbox */
     display: flex;
     gap: 10px;
