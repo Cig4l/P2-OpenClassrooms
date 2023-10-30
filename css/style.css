@@ -208,7 +208,7 @@ h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -469,6 +469,12 @@ footer{
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
+    /* filter */
+
+    .filter-container{
+        gap: 15px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -613,7 +619,7 @@ footer{
 
     .filter-item{
         flex-grow: 1;
-        width: 30%;
+        width: 35%;
         align-items: center;
         margin-top: 10px;
     }
