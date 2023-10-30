@@ -544,7 +544,7 @@ footer{
         padding-bottom: 15px;
     }
 
-    .main-menu-ul li a:active {
+    .main-menu-ul li a:active, .main-menu-ul li a:hover {
         text-decoration: none;
         color: var(--main-color);
         border-bottom: 2px solid var(--main-color);
