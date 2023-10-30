@@ -400,6 +400,10 @@ h1{
     object-fit: cover;
 }
 
+.activites-item:hover{
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
 .activites-item img{
     margin: 0;
     padding: 0;
@@ -646,6 +650,10 @@ footer{
         flex-basis: 100%;
     }
 
+    .card:active{
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    }
+
     /*** SECTION HEBERGEMENT ***/
 
     #hebergements-section{
@@ -673,6 +681,10 @@ footer{
 
     .activites-item{
         width:100%;
+    }
+
+    .activites-item:hover{
+        box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     }
 
     .activites-item a img{
