@@ -713,4 +713,8 @@ footer{
     #ghost-footer{
         display: none;
     }
+
+    .footer-ul li:active{
+        color: var(--main-color)
+    }
 }
