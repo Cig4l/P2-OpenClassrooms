@@ -420,10 +420,11 @@ h1{
     border-radius: 20px 20px 0 0;
 }
 
-.activites-legend{
+.activites-legend{                /* h3 */ 
     margin: 0;
     border: 0;
     padding: 16px 19px 20px 19px;
+    font-size: 16px;
     font-weight: 700; 
 }
 
